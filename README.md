@@ -1,17 +1,16 @@
-# Pokémon Randomizer Info Viewer
-
+# Pokémon Randomizer Log Tracker
 ## Overview
 
-This is a standalone desktop application to view, search, and manage Pokémon data loaded from log files. It supports organizing Pokémon as your team (Player) or as opponents (Enemy), displaying stats, images fetched online, and saving your history.
+This is a standalone desktop application to view, search, and manage Pokémon data loaded from log files. It supports organizing Pokémon as your team (Player) or as opponents (Enemy), displaying stats, images fetched online, and saving your history. This was made with the Universal Pokemon Randomizer .log files in mind.
 
 ---
 
 ## Features
 
-- Load Pokémon data from `.log` or `.txt` files.
+- Loads Pokémon data from `.log` or `.txt` files.
 - View detailed stats for your Pokémon or simplified info for enemies.
 - Search Pokémon by name.
-- Automatically fetch official Pokémon sprites from the internet.
+- Automatically fetches official Pokémon sprites from the internet.
 - Save and recall your Player and Enemy Pokémon history.
 - Switch between Light, Dark, and Custom color themes.
 - Clear Player and Enemy histories separately or both.
@@ -34,7 +33,7 @@ This is a standalone desktop application to view, search, and manage Pokémon da
    Click a Pokémon name in the list to view its details and image on the right.
 
 5. **Classify Pokémon**  
-   When selecting a Pokémon from the log for the first time, a prompt will ask if it’s your Pokémon or an enemy. This classification helps organize your history.
+   When selecting a Pokémon from the log for the first time, a prompt will ask if it’s your Pokémon or an enemy's. This classification helps organize your history.
 
 6. **Search Pokémon**  
    Use the search box at the top to type a Pokémon’s name and press Enter or click Search.
@@ -66,3 +65,4 @@ This is a standalone desktop application to view, search, and manage Pokémon da
 ## Developer Notes
 
 This app is built with Python 3 and Tkinter, packaged with PyInstaller for standalone use.
+
